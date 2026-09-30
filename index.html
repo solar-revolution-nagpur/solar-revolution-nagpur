@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Revolution - Nagpur</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #004aad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 14px;
+            color: #e0e0e0;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .section-title {
+            text-align: center;
+            margin: 30px 0 20px;
+            color: #004aad;
+            font-size: 22px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .service-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .service-card h3 {
+            margin: 15px 0 10px;
+            color: #222;
+        }
+        .service-card p {
+            padding: 0 15px;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .whatsapp-btn {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
+        }
+        .chips-section {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .chips-section img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .chips-section h3 {
+            margin: 15px 0 10px;
+            color: #222;
+        }
+        .chips-section p {
+            padding: 0 15px;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .chips-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 15px;
+        }
+        .size-btn {
+            background-color: #e7f1ff;
+            color: #004aad;
+            border: 2px solid #004aad;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .size-btn:hover {
+            background-color: #004aad;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Solar Revolution</h1>
+        <p>Expert Solar Maintenance & Cleaning Services in Nagpur</p>
+    </header>
+
+    <div class="hero">
+        <h2>Nagpur's Trusted Solar Care Service</h2>
+        <p>Get professional panel cleaning and maintenance directly from experts.</p>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Our Services & Inquiry</h2>
+        
+        <div class="services-grid">
+            <!-- Solar Cleaning Service -->
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=600&q=80" alt="Solar Cleaning">
+                <h3>Solar Panel Cleaning</h3>
+                <p>Improve your solar panel efficiency with professional washing and dust removal services.</p>
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20would%20like%20to%20inquire%20about%20Solar%20Panel%20Cleaning%20service." class="whatsapp-btn" target="_blank">WhatsApp Inquiry</a>
+            </div>
+
+            <!-- Solar Maintenance Service -->
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="Solar Maintenance">
+                <h3>Solar Maintenance</h3>
+                <p>Complete troubleshooting, performance check, and system upkeep by certified technicians.</p>
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20would%20like%20to%20inquire%20about%20Solar%20Maintenance%20service." class="whatsapp-btn" target="_blank">WhatsApp Inquiry</a>
+            </div>
+        </div>
+
+        <!-- Solar Drain Clips Section with Individual Size Buttons -->
+        <div class="chips-section">
+            <img src="https://images.unsplash.com/photo-1592838152347-f17975c7423d?auto=format&fit=crop&w=600&q=80" alt="Solar Drain Clips">
+            <h3>Solar Water Drainage Clips Available</h3>
+            <p>Prevent water stagnation and dust accumulation. Tap your required size below to inquire on WhatsApp:</p>
+            <div class="chips-buttons">
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20want%20to%20purchase%20Solar%20Water%20Drainage%20Clips%20-%20Size:%2030%20mm" class="size-btn" target="_blank">30 mm</a>
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20want%20to%20purchase%20Solar%20Water%20Drainage%20Clips%20-%20Size:%2033%20mm" class="size-btn" target="_blank">33 mm</a>
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20want%20to%20purchase%20Solar%20Water%20Drainage%20Clips%20-%20Size:%2035%20mm" class="size-btn" target="_blank">35 mm</a>
+                <a href="https://wa.me/917498056473?text=Grade%20-%20Size:%2038%20mm" href-fix class="size-btn" href="https://wa.me/917498056473?text=Hello,%20I%20want%20to%20purchase%20Solar%20Water%20Drainage%20Clips%20-%20Size:%2038%20mm" target="_blank">38 mm</a>
+                <a href="https://wa.me/917498056473?text=Hello,%20I%20want%20to%20purchase%20Solar%20Water%20Drainage%20Clips%20-%20Size:%2040%20mm" class="size-btn" target="_blank">40 mm</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Solar Revolution | Office Location: Nagpur, Maharashtra | Contact: 7498056473</p>
+    </footer>
+
+</body>
+</html>
